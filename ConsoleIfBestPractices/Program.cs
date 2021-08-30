@@ -15,7 +15,15 @@ namespace ConsoleIfBestPractices
             carros.Add(new Carro("Voyage", 4.213, 1.142));
             carros.Add(new Carro("Hilux", 5.225, 1.810));
 
+            Console.WriteLine("Com if´s");
             foreach ( var carro in carros)
+            {
+                Console.Write(carro.Nome + " =>");
+                TestaCarro(carro);
+            }
+
+            Console.WriteLine("Com case");
+            foreach (var carro in carros)
             {
                 Console.Write(carro.Nome + " =>");
                 TestaCarro(carro);
