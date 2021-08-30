@@ -1,4 +1,4 @@
-#Exemplo para melhorar a escrita de estruturas de decisão
+##Exemplo para melhorar a escrita de estruturas de decisão
 
 ![Alt text](/img/POST08.png?raw=true "Dica do Nizzola 08")
 
