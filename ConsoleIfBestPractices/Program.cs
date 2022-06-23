@@ -7,7 +7,6 @@ namespace ConsoleIfBestPractices
     {
         static void Main(string[] args)
         {
-            
             var carros = new List<Carro>();
             carros.Add(new Carro("Fusca", 4.026, 1.485));
             carros.Add(new Carro("Creta", 4.270, 1.780));
@@ -26,9 +25,8 @@ namespace ConsoleIfBestPractices
             foreach (var carro in carros)
             {
                 Console.Write(carro.Nome + " =>");
-                TestaCarro(carro);
+                TestaCarro2(carro);
             }
-
         }
 
         public static void TestaCarro(Carro carro)
